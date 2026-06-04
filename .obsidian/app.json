@@ -1,3 +1,29 @@
 {
-  "promptDelete": false
+  "promptDelete": false,
+  "showFrontmatter": true,
+  "defaultViewMode": "source",
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "attachmentFolderPath": "",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00-Inbox",
+  "alwaysUpdateLinks": true,
+  "excludedFolders": [
+    "brain/skills-universal",
+    "brain/skills-universal-master",
+    "brain/github-skills",
+    "brain/skills-archive",
+    "skills",
+    "Backups",
+    ".git",
+    ".ai/scripts",
+    ".claude",
+    ".github",
+    ".antigravity",
+    ".windsurf",
+    ".smart-env",
+    "My-Brain-Is-Full-Crew",
+    "01-projects/*/delta",
+    "01-projects/*/sessions"
+  ]
 }
