@@ -1,0 +1,103 @@
+# Antigravity Smart Skill Configuration
+# Unified skill loading from Obsidian vault
+
+skill_system:
+  enabled: true
+  version: 2.0.0
+  
+  # Source configuration
+  source:
+    type: obsidian_vault
+    path: "C:\\Users\\menum\\Documents\\ObsidianVault\\Second Brain\\brain\\skills-universal"
+    registry: "skills-registry-compact.json"
+    router: "skills-router.md"
+  
+  # Auto-detection settings
+  auto_detect:
+    enabled: true
+    triggers:
+      - "use skills"
+      - "ใช้สกิล"
+      - "load skills"
+      - "โหลดสกิล"
+    context_analysis:
+      file_extensions: true
+      keywords: true
+      project_path: true
+  
+  # Loading strategy
+  loading:
+    max_skills_per_session: 3
+    token_budget: 2000
+    cache_in_session: true
+    prefer_project_rules: true
+  
+  # Skill selection confidence thresholds
+  selection:
+    high_confidence: 90
+    medium_confidence: 70
+    low_confidence: 50
+    default_if_no_match: "tdd-workflow"
+  
+  # Project-specific autoload
+  project_mappings:
+    graxia-os:
+      - backend-patterns
+      - api-design
+      - security-review
+    vibecity:
+      - frontend-patterns
+      - e2e-testing
+      - deployment-patterns
+    taskam:
+      - tdd-workflow
+      - python-patterns
+      - postgres-patterns
+  
+  # File type to skill mapping
+  file_type_skills:
+    test.ts:
+      - tdd-workflow
+    test.py:
+      - tdd-workflow
+      - python-testing
+    tsx:
+      - frontend-patterns
+    py:
+      - python-patterns
+      - backend-patterns
+    rs:
+      - rust-patterns
+    go:
+      - golang-patterns
+    Dockerfile:
+      - docker-patterns
+      - deployment-patterns
+  
+  # Keyword to skill mapping
+  keyword_skills:
+    refactor:
+      - refactor-clean
+    deploy:
+      - deployment-patterns
+    test:
+      - tdd-workflow
+    api:
+      - backend-patterns
+    ui:
+      - frontend-patterns
+    security:
+      - security-review
+    bug:
+      - focused-fix
+
+# Integration with other AI tools
+sync:
+  enabled: true
+  tools:
+    - claude_code
+    - cursor
+    - windsurf
+    - gemini
+    - github_copilot
+  method: shared_obsidian_vault

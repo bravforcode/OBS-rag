@@ -1,0 +1,962 @@
+[
+  {
+    "cmdId": "npm:dev",
+    "label": "dev",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run dev",
+    "kind": "dev",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:build",
+    "label": "build",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run build",
+    "kind": "build",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:build:e2e",
+    "label": "build:e2e",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run build:e2e",
+    "kind": "build",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:preview",
+    "label": "preview",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run preview",
+    "kind": "dev",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:preview:e2e",
+    "label": "preview:e2e",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run preview:e2e",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:data:sync:nationwide",
+    "label": "data:sync:nationwide",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run data:sync:nationwide",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:check",
+    "label": "check",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run check",
+    "kind": "lint",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:check:bundle",
+    "label": "check:bundle",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run check:bundle",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:format",
+    "label": "format",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run format",
+    "kind": "lint",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:lint",
+    "label": "lint",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run lint",
+    "kind": "lint",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:lint:fix",
+    "label": "lint:fix",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run lint:fix",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:build:roads:cm",
+    "label": "build:roads:cm",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run build:roads:cm",
+    "kind": "build",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:build:roads:cm:lanes",
+    "label": "build:roads:cm:lanes",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run build:roads:cm:lanes",
+    "kind": "build",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:snapshot:localhost",
+    "label": "snapshot:localhost",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run snapshot:localhost",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:storybook",
+    "label": "storybook",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run storybook",
+    "kind": "dev",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:build-storybook",
+    "label": "build-storybook",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run build-storybook",
+    "kind": "build",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:unit:coverage",
+    "label": "test:unit:coverage",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:unit:coverage",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:unit",
+    "label": "test:unit",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:unit",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:playwright:install",
+    "label": "playwright:install",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run playwright:install",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:e2e",
+    "label": "test:e2e",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:e2e",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:e2e:ui",
+    "label": "test:e2e:ui",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:e2e:ui",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:e2e:smoke",
+    "label": "test:e2e:smoke",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:e2e:smoke",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:e2e:mobile-contracts",
+    "label": "test:e2e:mobile-contracts",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:e2e:mobile-contracts",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:e2e:smoke-map-lite",
+    "label": "test:e2e:smoke-map-lite",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:e2e:smoke-map-lite",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:e2e:map-preflight",
+    "label": "test:e2e:map-preflight",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:e2e:map-preflight",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:e2e:map-required",
+    "label": "test:e2e:map-required",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:e2e:map-required",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:e2e:map-quarantine",
+    "label": "test:e2e:map-quarantine",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:e2e:map-quarantine",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:e2e:debug",
+    "label": "test:e2e:debug",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:e2e:debug",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:visual",
+    "label": "test:visual",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:visual",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:visual:list",
+    "label": "test:visual:list",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:visual:list",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:healthcheck",
+    "label": "healthcheck",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run healthcheck",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:healthcheck:postdeploy",
+    "label": "healthcheck:postdeploy",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run healthcheck:postdeploy",
+    "kind": "custom",
+    "risk": "high",
+    "source": "package.json",
+    "cooldown": 3600
+  },
+  {
+    "cmdId": "npm:test:load",
+    "label": "test:load",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:load",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:spike",
+    "label": "test:spike",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:spike",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:chaos",
+    "label": "test:chaos",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:chaos",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:weekly-trend",
+    "label": "ci:weekly-trend",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:weekly-trend",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:monthly-trend",
+    "label": "ci:monthly-trend",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:monthly-trend",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:repo-hygiene",
+    "label": "ci:repo-hygiene",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:repo-hygiene",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:route-slo",
+    "label": "ci:route-slo",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:route-slo",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:seo-lint",
+    "label": "ci:seo-lint",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:seo-lint",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:db-migration-safety",
+    "label": "ci:db-migration-safety",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:db-migration-safety",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:sw-contract",
+    "label": "ci:sw-contract",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:sw-contract",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:perf-budget",
+    "label": "ci:perf-budget",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:perf-budget",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:bundle-budget",
+    "label": "ci:bundle-budget",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:bundle-budget",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:source-console-budget",
+    "label": "ci:source-console-budget",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:source-console-budget",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:source-i18n",
+    "label": "ci:source-i18n",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:source-i18n",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:vite-public-secrets",
+    "label": "ci:vite-public-secrets",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:vite-public-secrets",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:prod-ready",
+    "label": "ci:prod-ready",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:prod-ready",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:cache-warm-seo",
+    "label": "ci:cache-warm-seo",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:cache-warm-seo",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:secret-scan:gitleaks",
+    "label": "ci:secret-scan:gitleaks",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:secret-scan:gitleaks",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:provision-bq-analytics",
+    "label": "ci:provision-bq-analytics",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:provision-bq-analytics",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:export-analytics-warehouse",
+    "label": "ci:export-analytics-warehouse",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:export-analytics-warehouse",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:publish-metrics",
+    "label": "ci:publish-metrics",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:publish-metrics",
+    "kind": "custom",
+    "risk": "high",
+    "source": "package.json",
+    "cooldown": 3600
+  },
+  {
+    "cmdId": "npm:ci:manage-incidents",
+    "label": "ci:manage-incidents",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:manage-incidents",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:secret-scan",
+    "label": "ci:secret-scan",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:secret-scan",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:media:upload:venues",
+    "label": "media:upload:venues",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run media:upload:venues",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:media:upload:venues:auto",
+    "label": "media:upload:venues:auto",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run media:upload:venues:auto",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:media:autofill:task:install",
+    "label": "media:autofill:task:install",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run media:autofill:task:install",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:media:autofill:task:uninstall",
+    "label": "media:autofill:task:uninstall",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run media:autofill:task:uninstall",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:hooks:install",
+    "label": "hooks:install",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run hooks:install",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:knip",
+    "label": "knip",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run knip",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:knip:deps",
+    "label": "knip:deps",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run knip:deps",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:knip:files",
+    "label": "knip:files",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run knip:files",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:knip:exports",
+    "label": "knip:exports",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run knip:exports",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:i18n:check",
+    "label": "i18n:check",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run i18n:check",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:i18n:fix",
+    "label": "i18n:fix",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run i18n:fix",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:i18n:sync",
+    "label": "i18n:sync",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run i18n:sync",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:i18n:translate",
+    "label": "i18n:translate",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run i18n:translate",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:i18n:orphans",
+    "label": "i18n:orphans",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run i18n:orphans",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:i18n:tracker",
+    "label": "i18n:tracker",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run i18n:tracker",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:i18n:autopilot",
+    "label": "i18n:autopilot",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run i18n:autopilot",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:perf:baseline",
+    "label": "perf:baseline",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run perf:baseline",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:perf:fps:mobile",
+    "label": "perf:fps:mobile",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run perf:fps:mobile",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:perf:fps:ios:ingest",
+    "label": "perf:fps:ios:ingest",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run perf:fps:ios:ingest",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:perf:fps:real-device",
+    "label": "perf:fps:real-device",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run perf:fps:real-device",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:map-fps-guardrail",
+    "label": "ci:map-fps-guardrail",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:map-fps-guardrail",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:perf:all",
+    "label": "perf:all",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run perf:all",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:branch-protect:map-fps",
+    "label": "ci:branch-protect:map-fps",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:branch-protect:map-fps",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:ci:branch-protect:dashboard-canary",
+    "label": "ci:branch-protect:dashboard-canary",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run ci:branch-protect:dashboard-canary",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:perf:compare",
+    "label": "perf:compare",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run perf:compare",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:perf:monitor",
+    "label": "perf:monitor",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run perf:monitor",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:prepare",
+    "label": "prepare",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run prepare",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:dev:backend",
+    "label": "dev:backend",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run dev:backend",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:types:api",
+    "label": "types:api",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run types:api",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:types:check",
+    "label": "types:check",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run types:check",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:types:db",
+    "label": "types:db",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run types:db",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:dev:all",
+    "label": "dev:all",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run dev:all",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:types:sync",
+    "label": "types:sync",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run types:sync",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:venue:validate",
+    "label": "venue:validate",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run venue:validate",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:components:audit",
+    "label": "components:audit",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run components:audit",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:flags:audit",
+    "label": "flags:audit",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run flags:audit",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:api:validate",
+    "label": "api:validate",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run api:validate",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:device-matrix",
+    "label": "test:device-matrix",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run test:device-matrix",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:i18n:validate-thai",
+    "label": "i18n:validate-thai",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run i18n:validate-thai",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:monitor:flag-sunsets",
+    "label": "monitor:flag-sunsets",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run monitor:flag-sunsets",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:audit:cleanup",
+    "label": "audit:cleanup",
+    "cwd": "C:\\vibecity.live",
+    "command": "npm run audit:cleanup",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  }
+]

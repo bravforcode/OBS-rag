@@ -1,0 +1,140 @@
+[
+  {
+    "skillName": "api-design",
+    "filePath": "C:\\vibecity.live\\skills\\api-design\\SKILL.md",
+    "summary": "API Design Skill | Design Principles | **RESTful semantics**: Correct HTTP verbs, status codes, resource naming | **Contract-first**: OpenAPI spec drives implementation | **Security by default**: Auth on every protected route, input validation always | **Developer experience**: Consistent error format, self-documenting responses | REST API Design Rules | Resource Naming | Actions (when REST verbs don't fit) | HTTP Status Codes",
+    "tokens": 108
+  },
+  {
+    "skillName": "database-ops",
+    "filePath": "C:\\vibecity.live\\skills\\database-ops\\SKILL.md",
+    "summary": "Database Ops Skill | Core Principles | **Schema stability**: Get it right early — migrations are painful to undo | **Index everything you filter/sort by** — but not blindly (indexes cost write speed) | **N+1 is the enemy** — always eager-load related data | **Transactions for multi-step writes** — never leave data in inconsistent state | **Connection pooling is mandatory** — never open raw connections in request handlers | Schema Design Checklist | Naming Conventions | PostgreSQL: Production Schema Template",
+    "tokens": 128
+  },
+  {
+    "skillName": "devops-pipeline",
+    "filePath": "C:\\vibecity.live\\skills\\devops-pipeline\\SKILL.md",
+    "summary": "DevOps Pipeline Skill | Core Philosophy | **Speed first**: Maximize cache hits, parallelize jobs, minimize cold starts | **Security baked in**: Non-root containers, secret scanning, SAST in pipeline | **DRY configs**: Reusable workflows, templated stages, matrix builds | **12-Factor ready**: Env-var driven, stateless containers, explicit deps | Workflow: What to deliver | 1. Understand the stack first | Language/runtime (Node, Python, Go, Java, etc.) | Package manager (npm/pnpm/yarn, pip/poetry, go mod, maven/gradle)",
+    "tokens": 131
+  },
+  {
+    "skillName": "fullstack-scaffold",
+    "filePath": "C:\\vibecity.live\\skills\\fullstack-scaffold\\SKILL.md",
+    "summary": "Full Stack Scaffold Skill | Core Deliverables | Stack Detection | **Frontend**: Next.js / React / Vue / Svelte / Astro | **Backend**: Node/Express/NestJS / FastAPI / Go/Gin / Django / Rails | **Database**: PostgreSQL / MySQL / MongoDB / SQLite | **Auth**: NextAuth / Auth0 / Clerk / JWT custom / Supabase Auth | **ORM**: Prisma / Drizzle / TypeORM / SQLAlchemy / GORM | **Style**: Tailwind / CSS Modules / Styled Components / Shadcn | **Monorepo**: Turborepo / Nx / pnpm workspaces",
+    "tokens": 121
+  },
+  {
+    "skillName": "git-workflow",
+    "filePath": "C:\\vibecity.live\\skills\\git-workflow\\SKILL.md",
+    "summary": "Git Workflow Skill | Branching Strategy Selection | GitHub Flow (Recommended for most teams) | `main` is always deployable | Every change comes through a PR | Branch names: `type/short-description` | Squash merge to keep main history clean | Branch Naming Convention | Conventional Commits | Types",
+    "tokens": 75
+  },
+  {
+    "skillName": "infra-as-code",
+    "filePath": "C:\\vibecity.live\\skills\\infra-as-code\\SKILL.md",
+    "summary": "Infrastructure as Code Skill | Core Principles | **State is sacred** — remote state in S3+DynamoDB (AWS) or GCS (GCP) | **Modules for reuse** — don't repeat resource blocks | **Least privilege IAM** — never wildcard permissions | **Separate state per environment** — dev/staging/prod workspaces or directories | **Tagging everything** — cost allocation, ownership, environment | Terraform Project Structure | State Backend Setup (AWS) | First: create state bucket manually or with bootstrap script",
+    "tokens": 125
+  },
+  {
+    "skillName": "monitoring-observability",
+    "filePath": "C:\\vibecity.live\\skills\\monitoring-observability\\SKILL.md",
+    "summary": "Monitoring & Observability Skill | The Three Pillars Framework | The Four Golden Signals (always track these first) | OpenTelemetry: Node.js Full Instrumentation | Prometheus: Metrics Endpoint (Express) | Structured Logging (Pino) | `error` — Requires immediate attention, something broke | `warn` — Unexpected but handled, degraded state | `info` — Normal significant events (login, order created, job started) | `debug` — Detailed debugging info (disable in production)",
+    "tokens": 118
+  },
+  {
+    "skillName": "performance-profiling",
+    "filePath": "C:\\vibecity.live\\skills\\performance-profiling\\SKILL.md",
+    "summary": "Performance Profiling Skill | Golden Rule: Measure First, Optimize Second | Performance Audit Flow | Load Testing with k6 | Run load test | Output to InfluxDB + Grafana | Quick smoke test (1 VU, 30s) | Node.js Profiling | CPU Profile (find hot functions) | Method 1: Node.js built-in profiler",
+    "tokens": 73
+  },
+  {
+    "skillName": "security-hardening",
+    "filePath": "C:\\vibecity.live\\skills\\security-hardening\\SKILL.md",
+    "summary": "Security Hardening Skill | OWASP Top 10 Quick Reference (2021) | Security Headers (Express) | Input Validation (Zod — always validate at boundary) | SQL Injection Prevention | JWT Security | Password Hashing | Secrets Management | k8s Secret (encrypted at rest in etcd) | Reference in pod",
+    "tokens": 72
+  },
+  {
+    "skillName": "tech-research",
+    "filePath": "C:\\vibecity.live\\skills\\tech-research\\SKILL.md",
+    "summary": "Tech Research Skill | Research Methodology | Team size and experience level | Scale requirements (requests/day, data volume) | Timeline constraints | Existing stack/ecosystem | Budget (open source vs paid) | What problem is being solved | Options in contention | Evaluation criteria (weighted by context)",
+    "tokens": 76
+  },
+  {
+    "skillName": "imported-external-skills",
+    "filePath": "C:\\vibecity.live\\docs\\skills\\imported-external-skills.md",
+    "summary": "Imported External Skills | This repo now contains 10 imported external skill archives. | Canonical Source | `skills/git-workflow` | `skills/monitoring-observability` | `skills/performance-profiling` | `skills/security-hardening` | `skills/api-design` | `skills/database-ops` | `skills/devops-pipeline`",
+    "tokens": 76
+  },
+  {
+    "skillName": "book-reader",
+    "filePath": "C:\\Users\\menum\\.cursor\\worktrees\\vibecity.live\\bzk\\.claude\\skills\\book-reader\\SKILL.md",
+    "summary": "Book Reader | Read and query digital book formats from the command line using BM25 search. | Quick Start | Get book metadata | Show table of contents | Read a specific chapter | Read a specific page | Search for content (BM25 ranked) | Extract full text | Supported Formats",
+    "tokens": 69
+  },
+  {
+    "skillName": "company-product-context",
+    "filePath": "C:\\Users\\menum\\.cursor\\worktrees\\vibecity.live\\bzk\\.claude\\skills\\company-product-context\\SKILL.md",
+    "summary": "Company Product Context Compiler | This skill extracts information from company PDF documents, conducts web research, and synthesizes industry knowledge to create a comprehensive company product context report. | [ ] Step 1: Gather company materials and identify sources | [ ] Step 2: Extract information from PDF documents | [ ] Step 3: Structure extracted data | [ ] Step 4: Conduct web research and validation | [ ] Step 5: Synthesize industry knowledge | [ ] Step 6: Compile comprehensive product context | [ ] Step 7: Generate final report | [ ] Step 8: Export deliverables",
+    "tokens": 145
+  },
+  {
+    "skillName": "multimodal-looker",
+    "filePath": "C:\\Users\\menum\\.cursor\\worktrees\\vibecity.live\\bzk\\.claude\\skills\\multimodal-looker\\SKILL.md",
+    "summary": "Multimodal Looker - 多模态分析专家 | 你是一个视觉内容分析专家，擅长从图片、PDF、图表中提取和解读信息。你的核心价值是帮助用户理解视觉内容，同时避免将大量视觉数据直接放入上下文造成浪费。 | 核心职责 | 处理类型 | 图片分析 | 界面布局描述 | 关键 UI 元素 | 文字内容提取 | 状态信息（错误提示等） | 组件列表",
+    "tokens": 44
+  },
+  {
+    "skillName": "pdf",
+    "filePath": "C:\\Users\\menum\\.cursor\\worktrees\\vibecity.live\\bzk\\.claude\\skills\\pdf\\SKILL.md",
+    "summary": "PDF Processing Guide | Overview | Quick Start | Read a PDF | Extract text | Python Libraries | pypdf - Basic Operations | pdfplumber - Text and Table Extraction | Combine all tables | reportlab - Create PDFs",
+    "tokens": 52
+  },
+  {
+    "skillName": "pdf-processor",
+    "filePath": "C:\\Users\\menum\\.cursor\\worktrees\\vibecity.live\\bzk\\.claude\\skills\\pdf-processor\\SKILL.md",
+    "summary": "PDF Processing | Quick start | Advanced features",
+    "tokens": 12
+  },
+  {
+    "skillName": "web-fetch",
+    "filePath": "C:\\Users\\menum\\.cursor\\worktrees\\vibecity.live\\bzk\\.claude\\skills\\web-fetch\\SKILL.md",
+    "summary": "Web Fetch | Fetch web content and convert to clean Markdown and PDF formats. Supports general websites and WeChat (微信公众号) articles. | Features | Automatic noise removal (navigation, headers, footers, sidebars) | Image preservation with alt text | WeChat article special handling (lazy-loaded images, metadata extraction) | Clean Markdown output ready for translation or processing | **PDF conversion with clean reading style** | **CJK font support for Chinese content** | **Both MD and PDF output by default**",
+    "tokens": 128
+  },
+  {
+    "skillName": "book-reader",
+    "filePath": "C:\\Users\\menum\\.cursor\\worktrees\\vibecity.live\\rme\\.claude\\skills\\book-reader\\SKILL.md",
+    "summary": "Book Reader | Read and query digital book formats from the command line using BM25 search. | Quick Start | Get book metadata | Show table of contents | Read a specific chapter | Read a specific page | Search for content (BM25 ranked) | Extract full text | Supported Formats",
+    "tokens": 69
+  },
+  {
+    "skillName": "company-product-context",
+    "filePath": "C:\\Users\\menum\\.cursor\\worktrees\\vibecity.live\\rme\\.claude\\skills\\company-product-context\\SKILL.md",
+    "summary": "Company Product Context Compiler | This skill extracts information from company PDF documents, conducts web research, and synthesizes industry knowledge to create a comprehensive company product context report. | [ ] Step 1: Gather company materials and identify sources | [ ] Step 2: Extract information from PDF documents | [ ] Step 3: Structure extracted data | [ ] Step 4: Conduct web research and validation | [ ] Step 5: Synthesize industry knowledge | [ ] Step 6: Compile comprehensive product context | [ ] Step 7: Generate final report | [ ] Step 8: Export deliverables",
+    "tokens": 145
+  },
+  {
+    "skillName": "multimodal-looker",
+    "filePath": "C:\\Users\\menum\\.cursor\\worktrees\\vibecity.live\\rme\\.claude\\skills\\multimodal-looker\\SKILL.md",
+    "summary": "Multimodal Looker - 多模态分析专家 | 你是一个视觉内容分析专家，擅长从图片、PDF、图表中提取和解读信息。你的核心价值是帮助用户理解视觉内容，同时避免将大量视觉数据直接放入上下文造成浪费。 | 核心职责 | 处理类型 | 图片分析 | 界面布局描述 | 关键 UI 元素 | 文字内容提取 | 状态信息（错误提示等） | 组件列表",
+    "tokens": 44
+  },
+  {
+    "skillName": "pdf",
+    "filePath": "C:\\Users\\menum\\.cursor\\worktrees\\vibecity.live\\rme\\.claude\\skills\\pdf\\SKILL.md",
+    "summary": "PDF Processing Guide | Overview | Quick Start | Read a PDF | Extract text | Python Libraries | pypdf - Basic Operations | pdfplumber - Text and Table Extraction | Combine all tables | reportlab - Create PDFs",
+    "tokens": 52
+  },
+  {
+    "skillName": "pdf-processor",
+    "filePath": "C:\\Users\\menum\\.cursor\\worktrees\\vibecity.live\\rme\\.claude\\skills\\pdf-processor\\SKILL.md",
+    "summary": "PDF Processing | Quick start | Advanced features",
+    "tokens": 12
+  },
+  {
+    "skillName": "web-fetch",
+    "filePath": "C:\\Users\\menum\\.cursor\\worktrees\\vibecity.live\\rme\\.claude\\skills\\web-fetch\\SKILL.md",
+    "summary": "Web Fetch | Fetch web content and convert to clean Markdown and PDF formats. Supports general websites and WeChat (微信公众号) articles. | Features | Automatic noise removal (navigation, headers, footers, sidebars) | Image preservation with alt text | WeChat article special handling (lazy-loaded images, metadata extraction) | Clean Markdown output ready for translation or processing | **PDF conversion with clean reading style** | **CJK font support for Chinese content** | **Both MD and PDF output by default**",
+    "tokens": 128
+  }
+]

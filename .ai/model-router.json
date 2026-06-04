@@ -1,0 +1,29 @@
+{
+    "routing_rules": [
+        {
+            "task_type": "strategic_planning",
+            "model": "gemini-2.0-flash",
+            "provider": "google"
+        },
+        {
+            "task_type": "deep_reasoning",
+            "model": "llama-3.3-70b-versatile",
+            "provider": "groq"
+        },
+        {
+            "task_type": "code_expert",
+            "model": "llama-3.3-70b-versatile",
+            "provider": "groq"
+        },
+        {
+            "task_type": "general_tasks",
+            "model": "llama-3.3-70b-versatile",
+            "provider": "groq"
+        },
+        {
+            "task_type": "fallback",
+            "model": "llama-3.3-70b-versatile",
+            "provider": "groq"
+        }
+    ]
+}

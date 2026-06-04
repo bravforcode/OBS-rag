@@ -1,0 +1,15 @@
+---
+created: 2026-06-03
+type: index
+---
+
+# states
+## Notes
+
+- [[architect]]
+- [[researcher]]
+
+## Related
+
+- [[Meta/Index]]
+

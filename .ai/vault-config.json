@@ -1,0 +1,84 @@
+{
+  "vault": {
+    "name": "Second Brain",
+    "version": "2.0",
+    "root": ".",
+    "description": "AI-powered knowledge management system using PARA methodology"
+  },
+  "governance": {
+    "source_of_truth": "MASTER_AI_RULES.md",
+    "config_authority": ".ai/",
+    "last_audit": "2026-06-04"
+  },
+  "agents": {
+    "routing_file": "CLAUDE.md",
+    "definitions_dir": ".claude/agents/",
+    "skills_dir": ".claude/skills/",
+    "hooks_dir": ".claude/hooks/",
+    "count": 15,
+    "list": [
+      "architect", "auditor", "bridge", "connector", "ghost-strategist",
+      "ghostwriter", "librarian", "postman", "pulse", "researcher",
+      "scribe", "seeker", "sorter", "strategist", "transcriber"
+    ]
+  },
+  "skills": {
+    "vault_skills_dir": "skills/",
+    "universal_skills_dir": "brain/skills-universal/",
+    "github_skills_dir": "brain/github-skills/",
+    "registry": "brain/skills-universal/skills-registry-compact.json",
+    "max_tokens_per_session": 2000,
+    "auto_load": true
+  },
+  "mcp": {
+    "config_file": ".mcp.json",
+    "servers": ["Gmail", "Google Calendar"]
+  },
+  "tools": {
+    "claude_code": {
+      "config": "CLAUDE.md",
+      "agents": ".claude/agents/",
+      "skills": ".claude/skills/",
+      "hooks": ".claude/hooks/"
+    },
+    "cursor": {
+      "config": ".cursorrules"
+    },
+    "windsurf": {
+      "config": ".windsurfrules"
+    },
+    "copilot": {
+      "config": ".github/copilot-instructions.md"
+    },
+    "codex": {
+      "config": ".codex/"
+    },
+    "antigravity": {
+      "config": ".antigravity/"
+    }
+  },
+  "backup": {
+    "script": ".ai/scripts/vault-backup.py",
+    "schedule": "daily 22:00",
+    "retention": "forever",
+    "types": ["full", "incremental"]
+  },
+  "health": {
+    "script": ".ai/scripts/vault-health-check.py",
+    "link_scan": ".ai/scripts/deep-link-scan.py",
+    "report_dir": "Meta/health/"
+  },
+  "budget": {
+    "daily_soft_limit": 500000,
+    "daily_hard_limit": 1000000,
+    "per_task_limit": 50000,
+    "currency": "USD"
+  },
+  "model_router": {
+    "strategic_planning": {"model": "gemini-2.0-flash", "provider": "google"},
+    "deep_reasoning": {"model": "llama-3.3-70b-versatile", "provider": "groq"},
+    "code_expert": {"model": "llama-3.3-70b-versatile", "provider": "groq"},
+    "general_tasks": {"model": "llama-3.3-70b-versatile", "provider": "groq"},
+    "fallback": {"model": "llama-3.3-70b-versatile", "provider": "groq"}
+  }
+}

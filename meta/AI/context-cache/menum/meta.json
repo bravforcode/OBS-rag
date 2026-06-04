@@ -1,0 +1,40 @@
+{
+  "projectKey": "menum",
+  "projectFolder": "Menum",
+  "projectRoot": "C:\\Users\\menum",
+  "canonicalRoot": "C:\\Users\\menum",
+  "generatedAt": "2026-05-19T09:55:59.977Z",
+  "bundleVersion": "2.5.0",
+  "generator": "brain/2.5.0",
+  "searchMode": "hybrid",
+  "embeddingModel": "text-embedding-3-small",
+  "embeddingsEnabled": true,
+  "storageMode": "queued-offline",
+  "pendingWriteCount": 365,
+  "preflightTokens": 81,
+  "latestTokens": 266,
+  "preflightLineCount": 6,
+  "skillCount": 0,
+  "commandCount": 0,
+  "sourceCount": 33,
+  "knowledgeNoteCount": 24,
+  "playbookSuggestionCount": 5,
+  "recentFilesUsed": [
+    "C:\\Users\\menum\\Documents\\ObsidianVault\\Second Brain\\01-Projects\\Menum\\_Menum Dashboard.md",
+    "C:\\Users\\menum\\Documents\\ObsidianVault\\Second Brain\\01-Projects\\Menum\\Context\\Session-Startup.md",
+    "C:\\Users\\menum\\Documents\\ObsidianVault\\Second Brain\\01-Projects\\Menum\\Context\\Skill-Sources.md",
+    "C:\\Users\\menum\\Documents\\ObsidianVault\\Second Brain\\01-Projects\\Menum\\Context\\Automation-Commands.md",
+    "C:\\Users\\menum\\Documents\\ObsidianVault\\Second Brain\\01-Projects\\Menum\\Context\\Playbook-Suggestions.md",
+    "C:\\Users\\menum\\Documents\\ObsidianVault\\Second Brain\\03-Resources\\AI-Knowledge\\Maps\\PubMed Research Watchlist.md",
+    "C:\\Users\\menum\\Documents\\ObsidianVault\\Second Brain\\03-Resources\\AI-Knowledge\\Maps\\GitHub Repos Watchlist.md",
+    "C:\\Users\\menum\\Documents\\ObsidianVault\\Second Brain\\03-Resources\\AI-Knowledge\\Maps\\AI Knowledge Hub.md",
+    "C:\\Users\\menum\\Documents\\ObsidianVault\\Second Brain\\03-Resources\\AI-Knowledge\\Topics\\Evaluation & Observability.md",
+    "C:\\Users\\menum\\Documents\\ObsidianVault\\Second Brain\\03-Resources\\AI-Knowledge\\Topics\\Model Context Protocol.md"
+  ],
+  "warnings": [
+    "Firestore writes pending in offline queue"
+  ],
+  "rawLoadEstimate": 20000,
+  "estimatedSavingsPct": 100,
+  "lastSyncReason": "startup"
+}

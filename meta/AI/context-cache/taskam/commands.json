@@ -1,0 +1,302 @@
+[
+  {
+    "cmdId": "npm:dev",
+    "label": "dev",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run dev",
+    "kind": "dev",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:dev:fe",
+    "label": "dev:fe",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run dev:fe",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:dev:be",
+    "label": "dev:be",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run dev:be",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:build",
+    "label": "build",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run build",
+    "kind": "build",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:build:be",
+    "label": "build:be",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run build:be",
+    "kind": "build",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:lint",
+    "label": "lint",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run lint",
+    "kind": "lint",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:root",
+    "label": "test:root",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run test:root",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test",
+    "label": "test",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run test",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:clean",
+    "label": "clean",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run clean",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:deploy:production",
+    "label": "deploy:production",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run deploy:production",
+    "kind": "custom",
+    "risk": "high",
+    "source": "package.json",
+    "cooldown": 3600
+  },
+  {
+    "cmdId": "npm:test:e2e",
+    "label": "test:e2e",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run test:e2e",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:e2e:real",
+    "label": "test:e2e:real",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run test:e2e:real",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:cross-browser",
+    "label": "test:cross-browser",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run test:cross-browser",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:functional",
+    "label": "test:functional",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run test:functional",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:performance:smoke",
+    "label": "test:performance:smoke",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run test:performance:smoke",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:performance:load",
+    "label": "test:performance:load",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run test:performance:load",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:performance:stress",
+    "label": "test:performance:stress",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run test:performance:stress",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:performance:spike",
+    "label": "test:performance:spike",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run test:performance:spike",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:performance:endurance",
+    "label": "test:performance:endurance",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run test:performance:endurance",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:test:performance:all",
+    "label": "test:performance:all",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run test:performance:all",
+    "kind": "test",
+    "risk": "low",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:verify:deployment",
+    "label": "verify:deployment",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run verify:deployment",
+    "kind": "custom",
+    "risk": "high",
+    "source": "package.json",
+    "cooldown": 3600
+  },
+  {
+    "cmdId": "npm:orchestrate:deployment",
+    "label": "orchestrate:deployment",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run orchestrate:deployment",
+    "kind": "custom",
+    "risk": "high",
+    "source": "package.json",
+    "cooldown": 3600
+  },
+  {
+    "cmdId": "npm:audit:security",
+    "label": "audit:security",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run audit:security",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:health:check",
+    "label": "health:check",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run health:check",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:health:check:prod",
+    "label": "health:check:prod",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run health:check:prod",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:firestore:indexes",
+    "label": "firestore:indexes",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run firestore:indexes",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:firestore:quota",
+    "label": "firestore:quota",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run firestore:quota",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:secrets:rotate",
+    "label": "secrets:rotate",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run secrets:rotate",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:precommit",
+    "label": "precommit",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run precommit",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  },
+  {
+    "cmdId": "npm:prepare",
+    "label": "prepare",
+    "cwd": "C:\\TaskAm-main\\TaskAm-main",
+    "command": "npm run prepare",
+    "kind": "custom",
+    "risk": "medium",
+    "source": "package.json",
+    "cooldown": 0
+  }
+]

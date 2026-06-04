@@ -1,0 +1,91 @@
+﻿# Projects Index
+
+**All projects in the vault** (75 entries)
+
+---
+
+## Projects
+
+- [[projects\brav-os\sessions\2026-04-13|2026-04-13]] 
+- [[projects\thaolai-web\sessions\2026-04-27|2026-04-27]] 
+- [[projects\thaolai-web\sessions\2026-04-28|2026-04-28]] 
+- [[01-Projects\TaskAm\Decisions\ADR-000-Index|ADR-000-Index]] 
+- [[01-Projects\TaskAm\Architecture\API-Call-Graph|API-Call-Graph]] 
+- [[01-Projects\TaskAm\Active-Tasks|Active-Tasks]] 
+- [[projects\api-system-integration\Activity Log|Activity Log]] 
+- [[projects\business-dashboard-automation\Activity Log|Activity Log]] 
+- [[projects\plexta-auction-web-platform\Activity Log|Activity Log]] 
+- [[projects\testlyn-hospital-management-system\Activity Log|Activity Log]] 
+- [[01-Projects\Menum\Context\Automation-Commands|Automation-Commands]] 
+- [[01-Projects\TaskAm\Context\Automation-Commands|Automation-Commands]] 
+- [[01-Projects\VibeCity\Context\Automation-Commands|Automation-Commands]] 
+- [[01-Projects\TaskAm\Architecture\Backend-Map|Backend-Map]] 
+- [[01-Projects\CLAUDE|CLAUDE]] 
+- [[projects\api-system-integration\Context|Context]] 
+- [[projects\business-dashboard-automation\Context|Context]] 
+- [[projects\plexta-auction-web-platform\Context|Context]] 
+- [[projects\testlyn-hospital-management-system\Context|Context]] 
+- [[01-Projects\Daily-Pulse-2026-04-25|Daily-Pulse-2026-04-25]] 
+- [[01-Projects\TaskAm\Architecture\Data-Flow|Data-Flow]] 
+- [[01-Projects\TaskAm\Architecture\Database-Schema|Database-Schema]] 
+- [[01-Projects\TaskAm\Context\Domain-Glossary|Domain-Glossary]] 
+- [[01-Projects\TaskAm\Architecture\Frontend-Map|Frontend-Map]] 
+- [[01-Projects\GOAL_SETTING|GOAL_SETTING]] 
+- [[projects\Index|Index]] 
+- [[projects\api-system-integration\Contexts\Index|Index]] 
+- [[projects\business-dashboard-automation\Contexts\Index|Index]] 
+- [[projects\plexta-auction-web-platform\Contexts\Index|Index]] 
+- [[projects\testlyn-hospital-management-system\Contexts\Index|Index]] 
+- [[01-Projects\Graxia-OS\MAS-War-Room|MAS-War-Room]] #moc #mas #graxia-os #war-room #active
+- [[projects\api-system-integration\Overview|Overview]] 
+- [[projects\business-dashboard-automation\Overview|Overview]] 
+- [[projects\plexta-auction-web-platform\Overview|Overview]] 
+- [[projects\testlyn-hospital-management-system\Overview|Overview]] 
+- [[01-Projects\Menum\Context\Playbook-Suggestions|Playbook-Suggestions]] 
+- [[01-Projects\TaskAm\Context\Playbook-Suggestions|Playbook-Suggestions]] 
+- [[01-Projects\VibeCity\Context\Playbook-Suggestions|Playbook-Suggestions]] 
+- [[01-Projects\TaskAm\Context\Preferred-Skills|Preferred-Skills]] 
+- [[projects\brav-os\README|README]] 
+- [[01-Projects\TaskAm\Context\Session-Playbooks|Session-Playbooks]] 
+- [[01-Projects\TaskAm\Context\Session-Rules|Session-Rules]] 
+- [[01-Projects\Menum\Context\Session-Startup|Session-Startup]] 
+- [[01-Projects\TaskAm\Context\Session-Startup|Session-Startup]] 
+- [[01-Projects\VibeCity\Context\Session-Startup|Session-Startup]] 
+- [[01-Projects\Menum\Context\Skill-Sources|Skill-Sources]] 
+- [[01-Projects\TaskAm\Context\Skill-Sources|Skill-Sources]] 
+- [[01-Projects\VibeCity\Context\Skill-Sources|Skill-Sources]] 
+- [[projects\api-system-integration\Skills|Skills]] 
+- [[projects\business-dashboard-automation\Skills|Skills]] 
+- [[projects\plexta-auction-web-platform\Skills|Skills]] 
+- [[projects\testlyn-hospital-management-system\Skills|Skills]] 
+- [[01-Projects\TaskAm\Sprints\Sprint-2026-W15|Sprint-2026-W15]] 
+- [[01-Projects\TaskAm\Sprints\Sprint-2026-W16|Sprint-2026-W16]] 
+- [[01-Projects\TaskAm\Sprints\Sprint-2026-W17|Sprint-2026-W17]] 
+- [[01-Projects\TaskAm\Architecture\System-Overview|System-Overview]] 
+- [[projects\api-system-integration\Tasks|Tasks]] 
+- [[projects\business-dashboard-automation\Tasks|Tasks]] 
+- [[projects\plexta-auction-web-platform\Tasks|Tasks]] 
+- [[projects\testlyn-hospital-management-system\Tasks|Tasks]] 
+- [[01-Projects\TaskAm\Context\Working-Agreements|Working-Agreements]] 
+- [[01-Projects\Menum\_Menum Dashboard|_Menum Dashboard]] 
+- [[01-Projects\TaskAm\_TaskAm Dashboard|_TaskAm Dashboard]] 
+- [[01-Projects\VibeCity\_VibeCity Dashboard|_VibeCity Dashboard]] 
+- [[01-Projects\adr-reminder-2026-04-19|adr-reminder-2026-04-19]] 
+- [[projects\brav-os\context|context]] 
+- [[01-Projects\security-server-controllers-task.controller.ts-L57|security-server-controllers-task.controller.ts-L57]] 
+- [[01-Projects\security-src-App.tsx-L126|security-src-App.tsx-L126]] 
+- [[projects\backend\work-log|work-log]] 
+- [[projects\brav-os\work-log|work-log]] 
+- [[projects\graxia-os\work-log|work-log]] 
+- [[projects\menum\work-log|work-log]] 
+- [[projects\taskam-main\work-log|work-log]] 
+- [[projects\thaolai-web\work-log|work-log]] 
+- [[01-Projects\ðŸ“Š SYSTEM-STATUS|ðŸ“Š SYSTEM-STATUS]] 
+
+---
+
+## Related
+
+- [[MOC-root]] - Master Index
+- [[MOC-root-skills]] - Skills Index
+- [[MOC-root-resources]] - Resources Index
