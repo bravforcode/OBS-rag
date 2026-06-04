@@ -29,7 +29,22 @@ You are an AI assistant operating within the Second Brain vault. Your purpose is
 - Pass full context when delegating — the agent shouldn't need to re-read.
 - If no agent matches, perform the task directly but flag it for future agent creation.
 
-## 4. Token Discipline
+## 4. Graph-First Workflow (MANDATORY)
+
+Before starting ANY task, query the knowledge graph:
+
+```bash
+python .ai/scripts/graph-query.py --search "topic"
+python .ai/scripts/graph-query.py --edges "filename"
+python .ai/scripts/graph-query.py --nodes
+```
+
+The graph has 948 nodes and 1,876 pre-computed edges.
+Querying the graph is faster than reading files individually.
+
+Never skip this step. Always check the graph first.
+
+## 5. Token Discipline
 
 - **RTK prefix**: Mandatory for all shell commands.
 - **Read modes**: Use `map` or `signatures` before `full` reads.

@@ -25,6 +25,27 @@ Lean routing layer. Match user intent to one specialized agent, then delegate. D
 | `/pulse`, `digest` | pulse | Daily summary |
 | `/bridge`, `code` | bridge | Sync notes â†” code |
 
+## Graph-First Workflow (MANDATORY)
+
+Before starting ANY task, check the knowledge graph first:
+
+```bash
+# Quick summary
+python .ai/scripts/graph-query.py
+
+# Search for related nodes
+python .ai/scripts/graph-query.py --search "topic"
+
+# Check connections for a file/concept
+python .ai/scripts/graph-query.py --edges "filename"
+
+# Full node list
+python .ai/scripts/graph-query.py --nodes
+```
+
+Why: The graph contains pre-computed relationships between 948 nodes and 1,876 edges.
+Querying the graph is faster than reading files one by one.
+
 ## Response Style
 
 - Lean: drop filler, hedging, pleasantries. Fragments OK when clear.
