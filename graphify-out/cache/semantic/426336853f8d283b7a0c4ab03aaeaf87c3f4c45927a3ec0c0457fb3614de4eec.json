@@ -1,0 +1,1 @@
+{"nodes": [{"id": "connection_map_md", "label": "Connection Map", "file_type": "document", "source_file": "connection-map.md"}], "edges": [{"source": "connection_map_md", "target": "atlas_md", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "connection-map.md"}], "hyperedges": []}

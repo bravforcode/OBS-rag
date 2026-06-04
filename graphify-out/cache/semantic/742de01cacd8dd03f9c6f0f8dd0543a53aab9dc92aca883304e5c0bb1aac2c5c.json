@@ -1,0 +1,1 @@
+{"nodes": [{"id": "moc_root", "label": "MOC: Root", "file_type": "document", "source_file": "moc/MOC-root.md"}], "edges": [{"source": "moc_root", "target": "moc_root_skills", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "moc/MOC-root.md"}], "hyperedges": []}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "master_ai_rules_md", "label": "Master AI Rules", "file_type": "document", "source_file": "MASTER_AI_RULES.md"}], "edges": [{"source": "master_ai_rules_md", "target": "claude_md", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "MASTER_AI_RULES.md"}], "hyperedges": []}

@@ -1,0 +1,989 @@
+{
+  "communities": {
+    "0": [
+      "ai_knowledge_state_avaiga_taipy_description",
+      "ai_knowledge_state_avaiga_taipy_fullname",
+      "ai_knowledge_state_avaiga_taipy_language",
+      "ai_knowledge_state_avaiga_taipy_name",
+      "ai_knowledge_state_avaiga_taipy_notepath",
+      "ai_knowledge_state_avaiga_taipy_owner",
+      "ai_knowledge_state_avaiga_taipy_sourcekey",
+      "ai_knowledge_state_avaiga_taipy_sourcetype",
+      "ai_knowledge_state_avaiga_taipy_stars",
+      "ai_knowledge_state_avaiga_taipy_title",
+      "ai_knowledge_state_avaiga_taipy_url",
+      "ai_knowledge_state_github_avaiga_taipy",
+      "ai_knowledge_state_github_builderz_labs_mission_control",
+      "ai_knowledge_state_github_cft0808_edict",
+      "ai_knowledge_state_github_clearml_clearml",
+      "ai_knowledge_state_github_clearml_clearml_server",
+      "ai_knowledge_state_github_foundationagents_metagpt",
+      "ai_knowledge_state_github_iflytek_astron_agent",
+      "ai_knowledge_state_github_jina_ai_serve",
+      "ai_knowledge_state_github_kohaku_lab_kohakuterrarium",
+      "ai_knowledge_state_github_langchain_ai_langchain",
+      "ai_knowledge_state_github_langfuse_langfuse",
+      "ai_knowledge_state_github_libraryofcelsus_aetherius_ai_assistant",
+      "ai_knowledge_state_github_microsoft_mcp_for_beginners",
+      "ai_knowledge_state_github_mlflow_mlflow",
+      "ai_knowledge_state_github_modelcontextprotocol_python_sdk",
+      "ai_knowledge_state_github_modelcontextprotocol_servers",
+      "ai_knowledge_state_github_modelcontextprotocol_typescript_sdk",
+      "ai_knowledge_state_github_open_multi_agent_open_multi_agent",
+      "ai_knowledge_state_github_pacifio_cersei",
+      "ai_knowledge_state_github_raga_ai_hub_ragaai_catalyst",
+      "ai_knowledge_state_github_run_llama_llama_index",
+      "ai_knowledge_state_github_sagents_ai_sagents",
+      "ai_knowledge_state_github_tauricresearch_tradingagents",
+      "ai_knowledge_state_github_tensorzero_tensorzero",
+      "ai_knowledge_state_pmid_39486399_authors",
+      "ai_knowledge_state_pmid_39486399_doi",
+      "ai_knowledge_state_pmid_39486399_journal",
+      "ai_knowledge_state_pmid_39486399_pmid",
+      "ai_knowledge_state_pmid_39486399_pubdate",
+      "ai_knowledge_state_pubmed_pmid_38462064",
+      "ai_knowledge_state_pubmed_pmid_38564555",
+      "ai_knowledge_state_pubmed_pmid_38993729",
+      "ai_knowledge_state_pubmed_pmid_39361263",
+      "ai_knowledge_state_pubmed_pmid_39486399",
+      "ai_knowledge_state_pubmed_pmid_39812777",
+      "ai_knowledge_state_pubmed_pmid_40055694",
+      "ai_knowledge_state_pubmed_pmid_40501924",
+      "ai_knowledge_state_pubmed_pmid_40813712",
+      "ai_knowledge_state_pubmed_pmid_40849361",
+      "ai_knowledge_state_pubmed_pmid_40909853",
+      "ai_knowledge_state_pubmed_pmid_41015033",
+      "ai_knowledge_state_pubmed_pmid_41708847",
+      "ai_knowledge_state_sources_github",
+      "ai_knowledge_state_sources_pubmed",
+      "ai_knowledge_state_topics",
+      "ai_knowledge_state_updatedat"
+    ],
+    "1": [
+      "obsidian_core_plugins",
+      "obsidian_core_plugins_audio_recorder",
+      "obsidian_core_plugins_backlink",
+      "obsidian_core_plugins_bases",
+      "obsidian_core_plugins_bookmarks",
+      "obsidian_core_plugins_canvas",
+      "obsidian_core_plugins_command_palette",
+      "obsidian_core_plugins_daily_notes",
+      "obsidian_core_plugins_editor_status",
+      "obsidian_core_plugins_file_explorer",
+      "obsidian_core_plugins_file_recovery",
+      "obsidian_core_plugins_footnotes",
+      "obsidian_core_plugins_global_search",
+      "obsidian_core_plugins_graph",
+      "obsidian_core_plugins_markdown_importer",
+      "obsidian_core_plugins_note_composer",
+      "obsidian_core_plugins_outgoing_link",
+      "obsidian_core_plugins_outline",
+      "obsidian_core_plugins_page_preview",
+      "obsidian_core_plugins_properties",
+      "obsidian_core_plugins_publish",
+      "obsidian_core_plugins_random_note",
+      "obsidian_core_plugins_slash_command",
+      "obsidian_core_plugins_slides",
+      "obsidian_core_plugins_switcher",
+      "obsidian_core_plugins_sync",
+      "obsidian_core_plugins_tag_pane",
+      "obsidian_core_plugins_templates",
+      "obsidian_core_plugins_webviewer",
+      "obsidian_core_plugins_word_count",
+      "obsidian_core_plugins_workspaces",
+      "obsidian_core_plugins_zk_prefixer"
+    ],
+    "2": [
+      "ai_knowledge_state",
+      "ai_knowledge_state_refreshhours",
+      "ai_knowledge_state_sources",
+      "menum_meta",
+      "menum_meta_bundleversion",
+      "menum_meta_canonicalroot",
+      "menum_meta_commandcount",
+      "menum_meta_embeddingmodel",
+      "menum_meta_embeddingsenabled",
+      "menum_meta_estimatedsavingspct",
+      "menum_meta_generatedat",
+      "menum_meta_generator",
+      "menum_meta_knowledgenotecount",
+      "menum_meta_lastsyncreason",
+      "menum_meta_latesttokens",
+      "menum_meta_pendingwritecount",
+      "menum_meta_playbooksuggestioncount",
+      "menum_meta_preflightlinecount",
+      "menum_meta_preflighttokens",
+      "menum_meta_projectfolder",
+      "menum_meta_projectkey",
+      "menum_meta_projectroot",
+      "menum_meta_rawloadestimate",
+      "menum_meta_recentfilesused",
+      "menum_meta_searchmode",
+      "menum_meta_skillcount",
+      "menum_meta_sourcecount",
+      "menum_meta_storagemode",
+      "menum_meta_warnings"
+    ],
+    "3": [
+      "obsidian_types",
+      "obsidian_types_types",
+      "obsidian_types_types_aliases",
+      "obsidian_types_types_cssclasses",
+      "obsidian_types_types_tags",
+      "obsidian_types_types_tq_explain",
+      "obsidian_types_types_tq_extra_instructions",
+      "obsidian_types_types_tq_short_mode",
+      "obsidian_types_types_tq_show_backlink",
+      "obsidian_types_types_tq_show_cancelled_date",
+      "obsidian_types_types_tq_show_created_date",
+      "obsidian_types_types_tq_show_depends_on",
+      "obsidian_types_types_tq_show_done_date",
+      "obsidian_types_types_tq_show_due_date",
+      "obsidian_types_types_tq_show_edit_button",
+      "obsidian_types_types_tq_show_id",
+      "obsidian_types_types_tq_show_on_completion",
+      "obsidian_types_types_tq_show_postpone_button",
+      "obsidian_types_types_tq_show_priority",
+      "obsidian_types_types_tq_show_recurrence_rule",
+      "obsidian_types_types_tq_show_scheduled_date",
+      "obsidian_types_types_tq_show_start_date",
+      "obsidian_types_types_tq_show_tags",
+      "obsidian_types_types_tq_show_task_count",
+      "obsidian_types_types_tq_show_toolbar",
+      "obsidian_types_types_tq_show_tree",
+      "obsidian_types_types_tq_show_urgency"
+    ],
+    "4": [
+      "taskam_meta",
+      "taskam_meta_bundleversion",
+      "taskam_meta_canonicalroot",
+      "taskam_meta_commandcount",
+      "taskam_meta_embeddingmodel",
+      "taskam_meta_embeddingsenabled",
+      "taskam_meta_estimatedsavingspct",
+      "taskam_meta_generatedat",
+      "taskam_meta_generator",
+      "taskam_meta_knowledgenotecount",
+      "taskam_meta_lastsyncreason",
+      "taskam_meta_latesttokens",
+      "taskam_meta_pendingwritecount",
+      "taskam_meta_playbooksuggestioncount",
+      "taskam_meta_preflightlinecount",
+      "taskam_meta_preflighttokens",
+      "taskam_meta_projectfolder",
+      "taskam_meta_projectkey",
+      "taskam_meta_projectroot",
+      "taskam_meta_rawloadestimate",
+      "taskam_meta_recentfilesused",
+      "taskam_meta_searchmode",
+      "taskam_meta_skillcount",
+      "taskam_meta_sourcecount",
+      "taskam_meta_storagemode",
+      "taskam_meta_warnings"
+    ],
+    "5": [
+      "vibecity_meta",
+      "vibecity_meta_bundleversion",
+      "vibecity_meta_canonicalroot",
+      "vibecity_meta_commandcount",
+      "vibecity_meta_embeddingmodel",
+      "vibecity_meta_embeddingsenabled",
+      "vibecity_meta_estimatedsavingspct",
+      "vibecity_meta_generatedat",
+      "vibecity_meta_generator",
+      "vibecity_meta_knowledgenotecount",
+      "vibecity_meta_lastsyncreason",
+      "vibecity_meta_latesttokens",
+      "vibecity_meta_pendingwritecount",
+      "vibecity_meta_playbooksuggestioncount",
+      "vibecity_meta_preflightlinecount",
+      "vibecity_meta_preflighttokens",
+      "vibecity_meta_projectfolder",
+      "vibecity_meta_projectkey",
+      "vibecity_meta_projectroot",
+      "vibecity_meta_rawloadestimate",
+      "vibecity_meta_recentfilesused",
+      "vibecity_meta_searchmode",
+      "vibecity_meta_skillcount",
+      "vibecity_meta_sourcecount",
+      "vibecity_meta_storagemode",
+      "vibecity_meta_warnings"
+    ],
+    "6": [
+      "obsidian_graph",
+      "obsidian_graph_centerstrength",
+      "obsidian_graph_close",
+      "obsidian_graph_collapse_color_groups",
+      "obsidian_graph_collapse_display",
+      "obsidian_graph_collapse_filter",
+      "obsidian_graph_collapse_forces",
+      "obsidian_graph_colorgroups",
+      "obsidian_graph_hideunresolved",
+      "obsidian_graph_linesizemultiplier",
+      "obsidian_graph_linkdistance",
+      "obsidian_graph_linkstrength",
+      "obsidian_graph_nodesizemultiplier",
+      "obsidian_graph_repelstrength",
+      "obsidian_graph_scale",
+      "obsidian_graph_search",
+      "obsidian_graph_showarrow",
+      "obsidian_graph_showattachments",
+      "obsidian_graph_showorphans",
+      "obsidian_graph_showtags",
+      "obsidian_graph_textfademultiplier"
+    ],
+    "7": [
+      "ai_project_registry",
+      "ai_project_registry_menum_agentadapters",
+      "ai_project_registry_menum_automationmode",
+      "ai_project_registry_menum_canonicalroot",
+      "ai_project_registry_menum_commandpolicy",
+      "ai_project_registry_menum_contextsources",
+      "ai_project_registry_menum_discoveredat",
+      "ai_project_registry_menum_lastopenedat",
+      "ai_project_registry_menum_lastsyncedat",
+      "ai_project_registry_menum_projectfolder",
+      "ai_project_registry_menum_projectkey",
+      "ai_project_registry_menum_projectname",
+      "ai_project_registry_menum_projectroot",
+      "ai_project_registry_menum_stackhints",
+      "ai_project_registry_menum_trusted",
+      "ai_project_registry_menum_worktreeroots",
+      "ai_project_registry_projects",
+      "ai_project_registry_projects_menum",
+      "ai_project_registry_updatedat",
+      "skill_sources_skill_sources"
+    ],
+    "8": [
+      "audit_intelligence_2026_05_15_audit_intelligence_2026_05_15",
+      "book_book",
+      "course_course",
+      "daily_note_daily_note",
+      "goal_goal",
+      "idea_idea",
+      "journal_entry_journal_entry",
+      "meeting_meeting",
+      "note_note",
+      "opportunity_note_template_opportunity_note_template",
+      "project_note_template_project_note_template",
+      "project_project",
+      "task_task",
+      "thaolai_web_overview_thaolai_web",
+      "thesis_note_thesis_note",
+      "weekly_review_template_weekly_review_template",
+      "weekly_review_weekly_review",
+      "work_log_work_log"
+    ],
+    "9": [
+      "scripts_config_sync",
+      "scripts_config_sync_load_config",
+      "scripts_config_sync_rationale_117",
+      "scripts_config_sync_rationale_142",
+      "scripts_config_sync_rationale_173",
+      "scripts_config_sync_rationale_19",
+      "scripts_config_sync_rationale_25",
+      "scripts_config_sync_rationale_63",
+      "scripts_config_sync_rationale_86",
+      "scripts_config_sync_sync_all",
+      "scripts_config_sync_sync_budget_config",
+      "scripts_config_sync_sync_claude_config",
+      "scripts_config_sync_sync_copilot_config",
+      "scripts_config_sync_sync_mcp_config",
+      "scripts_config_sync_sync_model_router"
+    ],
+    "10": [
+      "architect_agent",
+      "auditor_agent",
+      "bridge_agent",
+      "claude_md",
+      "connector_agent",
+      "ghostwriter_agent",
+      "librarian_agent",
+      "master_ai_rules_md",
+      "postman_agent",
+      "pulse_agent",
+      "scribe_agent",
+      "seeker_agent",
+      "skills_registry_json",
+      "strategist_agent"
+    ],
+    "11": [
+      "ai_vault_config",
+      "ai_vault_config_backup",
+      "ai_vault_config_backup_retention",
+      "ai_vault_config_backup_schedule",
+      "ai_vault_config_backup_script",
+      "ai_vault_config_backup_types",
+      "ai_vault_config_health",
+      "ai_vault_config_health_link_scan",
+      "ai_vault_config_health_report_dir",
+      "ai_vault_config_mcp",
+      "ai_vault_config_mcp_config_file",
+      "ai_vault_config_mcp_servers"
+    ],
+    "12": [
+      "scripts_vault_health_check",
+      "scripts_vault_health_check_check_broken_links",
+      "scripts_vault_health_check_check_empty_folders",
+      "scripts_vault_health_check_check_frontmatter",
+      "scripts_vault_health_check_check_large_files",
+      "scripts_vault_health_check_count_files",
+      "scripts_vault_health_check_rationale_107",
+      "scripts_vault_health_check_rationale_32",
+      "scripts_vault_health_check_rationale_64",
+      "scripts_vault_health_check_rationale_77",
+      "scripts_vault_health_check_rationale_89",
+      "scripts_vault_health_check_run_health_check"
+    ],
+    "13": [
+      "obsidian_app",
+      "obsidian_app_alwaysupdatelinks",
+      "obsidian_app_attachmentfolderpath",
+      "obsidian_app_defaultviewmode",
+      "obsidian_app_excludedfolders",
+      "obsidian_app_newfilefolderpath",
+      "obsidian_app_newfilelocation",
+      "obsidian_app_promptdelete",
+      "obsidian_app_readablelinelength",
+      "obsidian_app_showfrontmatter",
+      "obsidian_app_strictlinebreaks"
+    ],
+    "14": [
+      "scripts_deep_link_scan",
+      "scripts_deep_link_scan_analyze_link_density",
+      "scripts_deep_link_scan_find_broken_links",
+      "scripts_deep_link_scan_find_orphan_notes",
+      "scripts_deep_link_scan_generate_report",
+      "scripts_deep_link_scan_rationale_104",
+      "scripts_deep_link_scan_rationale_123",
+      "scripts_deep_link_scan_rationale_142",
+      "scripts_deep_link_scan_rationale_19",
+      "scripts_deep_link_scan_rationale_60",
+      "scripts_deep_link_scan_scan_vault"
+    ],
+    "15": [
+      "ai_budget_config",
+      "ai_budget_config_actions",
+      "ai_budget_config_actions_on_hard_limit",
+      "ai_budget_config_actions_on_high_cost_task",
+      "ai_budget_config_actions_on_soft_limit",
+      "ai_budget_config_currency",
+      "ai_budget_config_token_limits",
+      "ai_budget_config_token_limits_daily_hard_limit",
+      "ai_budget_config_token_limits_daily_soft_limit",
+      "ai_budget_config_token_limits_per_task_limit"
+    ],
+    "16": [
+      "scripts_llm_helper",
+      "scripts_llm_helper_ask_llm",
+      "scripts_llm_helper_call_google",
+      "scripts_llm_helper_call_groq",
+      "scripts_llm_helper_call_ollama",
+      "scripts_llm_helper_call_openrouter",
+      "scripts_llm_helper_call_with_retry",
+      "scripts_llm_helper_rationale_31",
+      "scripts_test_bleeding_edge",
+      "scripts_test_bleeding_edge_test_models"
+    ],
+    "17": [
+      "ai_knowledge_hub_ai_knowledge_hub",
+      "ai_master_moc_ai_master_moc",
+      "automation_commands_automation_commands",
+      "github_repos_watchlist_github_repos_watchlist",
+      "graxia_os_manifest_graxia_os_manifest",
+      "playbook_suggestions_playbook_suggestions",
+      "pubmed_research_watchlist_pubmed_research_watchlist",
+      "session_startup_session_startup",
+      "vibecity_dashboard_vibecity_dashboard"
+    ],
+    "18": [
+      "ai_vault_config_claude_code_hooks",
+      "ai_vault_config_codex_config",
+      "ai_vault_config_tools",
+      "ai_vault_config_tools_antigravity",
+      "ai_vault_config_tools_claude_code",
+      "ai_vault_config_tools_codex",
+      "ai_vault_config_tools_copilot",
+      "ai_vault_config_tools_cursor",
+      "ai_vault_config_tools_windsurf"
+    ],
+    "19": [
+      "scripts_batch_rename",
+      "scripts_batch_rename_pascal_to_kebab",
+      "scripts_batch_rename_rationale_119",
+      "scripts_batch_rename_rationale_164",
+      "scripts_batch_rename_rationale_85",
+      "scripts_batch_rename_rationale_93",
+      "scripts_batch_rename_remove_emoji",
+      "scripts_batch_rename_rename_files",
+      "scripts_batch_rename_update_links"
+    ],
+    "20": [
+      "scripts_optimize_obsidian",
+      "scripts_optimize_obsidian_create_exclusion_guide",
+      "scripts_optimize_obsidian_create_performance_config",
+      "scripts_optimize_obsidian_optimize_graph",
+      "scripts_optimize_obsidian_rationale_39",
+      "scripts_optimize_obsidian_rationale_54",
+      "scripts_optimize_obsidian_rationale_73",
+      "scripts_optimize_obsidian_rationale_87",
+      "scripts_optimize_obsidian_reduce_plugins"
+    ],
+    "21": [
+      "ai_vault_config_fallback_model",
+      "ai_vault_config_fallback_provider",
+      "ai_vault_config_model_router",
+      "ai_vault_config_model_router_code_expert",
+      "ai_vault_config_model_router_deep_reasoning",
+      "ai_vault_config_model_router_fallback",
+      "ai_vault_config_model_router_general_tasks",
+      "ai_vault_config_model_router_strategic_planning"
+    ],
+    "22": [
+      "adr_000_index_adr_index",
+      "sprint_2026_w15_sprint_2026_w15",
+      "taskam_infra_manifest_taskam_infra_manifest",
+      "taskam_learnings_taskam_learnings",
+      "taskam_security_notes_taskam_security_notes",
+      "taskam_tech_stack_taskam_tech_stack",
+      "working_agreements_working_agreements"
+    ],
+    "23": [
+      "ai_vault_config_agents",
+      "ai_vault_config_agents_count",
+      "ai_vault_config_agents_definitions_dir",
+      "ai_vault_config_agents_hooks_dir",
+      "ai_vault_config_agents_list",
+      "ai_vault_config_agents_routing_file",
+      "ai_vault_config_agents_skills_dir"
+    ],
+    "24": [
+      "ai_vault_config_skills",
+      "ai_vault_config_skills_auto_load",
+      "ai_vault_config_skills_github_skills_dir",
+      "ai_vault_config_skills_max_tokens_per_session",
+      "ai_vault_config_skills_registry",
+      "ai_vault_config_skills_universal_skills_dir",
+      "ai_vault_config_skills_vault_skills_dir"
+    ],
+    "25": [
+      "scripts_autonomous_loop",
+      "scripts_autonomous_loop_execute_command",
+      "scripts_autonomous_loop_generate_plan",
+      "scripts_autonomous_loop_log_message",
+      "scripts_autonomous_loop_main",
+      "scripts_autonomous_loop_rationale_31",
+      "scripts_autonomous_loop_read_file"
+    ],
+    "26": [
+      "scripts_security_audit",
+      "scripts_security_audit_generate_report",
+      "scripts_security_audit_rationale_33",
+      "scripts_security_audit_rationale_55",
+      "scripts_security_audit_rationale_80",
+      "scripts_security_audit_scan_file",
+      "scripts_security_audit_scan_vault"
+    ],
+    "27": [
+      "ai_vault_config_budget",
+      "ai_vault_config_budget_currency",
+      "ai_vault_config_budget_daily_hard_limit",
+      "ai_vault_config_budget_daily_soft_limit",
+      "ai_vault_config_budget_per_task_limit"
+    ],
+    "28": [
+      "ai_vault_config_vault",
+      "ai_vault_config_vault_description",
+      "ai_vault_config_vault_name",
+      "ai_vault_config_vault_root",
+      "ai_vault_config_vault_version"
+    ],
+    "29": [
+      "claude_settings",
+      "claude_settings_hooks",
+      "claude_settings_hooks_notification",
+      "claude_settings_hooks_posttooluse",
+      "claude_settings_hooks_pretooluse"
+    ],
+    "30": [
+      "scripts_sentinel_service",
+      "scripts_sentinel_service_check_inbox",
+      "scripts_sentinel_service_check_queue",
+      "scripts_sentinel_service_log_message",
+      "scripts_sentinel_service_main"
+    ],
+    "31": [
+      "ai_vault_config_governance",
+      "ai_vault_config_governance_config_authority",
+      "ai_vault_config_governance_last_audit",
+      "ai_vault_config_governance_source_of_truth"
+    ],
+    "32": [
+      "atlas_md",
+      "connection_map_md",
+      "start_here_md",
+      "system_status_md"
+    ],
+    "33": [
+      "dashboard_md",
+      "project_graxia_os",
+      "project_menum",
+      "project_taskam"
+    ],
+    "34": [
+      "scripts_vault_dashboard_refresh",
+      "scripts_vault_dashboard_refresh_get_git_commits",
+      "scripts_vault_dashboard_refresh_get_recent_notes",
+      "scripts_vault_dashboard_refresh_refresh_dashboard"
+    ],
+    "35": [
+      "lean_router",
+      "skill_auto_loader",
+      "smart_skill_system"
+    ],
+    "36": [
+      "mcp",
+      "mcp_mcp_server_gmail",
+      "mcp_mcp_server_google_calendar"
+    ],
+    "37": [
+      "pipeline_opportunity_eb1b",
+      "system_identity",
+      "user_profile"
+    ],
+    "38": [
+      "scripts_auto_harvester",
+      "scripts_auto_harvester_harvest",
+      "scripts_auto_harvester_update_moc"
+    ],
+    "39": [
+      "scripts_backup_verify",
+      "scripts_backup_verify_calculate_hash",
+      "scripts_backup_verify_verify_backup"
+    ],
+    "40": [
+      "scripts_daily_pulse",
+      "scripts_daily_pulse_generate_pulse",
+      "scripts_daily_pulse_get_git_activity"
+    ],
+    "41": [
+      "scripts_pii_filter",
+      "scripts_pii_filter_main",
+      "scripts_pii_filter_scan_text"
+    ],
+    "42": [
+      "scripts_vault_backup",
+      "scripts_vault_backup_create_backup",
+      "scripts_vault_backup_rationale_37"
+    ],
+    "43": [
+      "agent_log",
+      "vault_structure"
+    ],
+    "44": [
+      "ai_model_router",
+      "ai_model_router_routing_rules"
+    ],
+    "45": [
+      "ai_scripts_vault_audit_py_scripts_vault_audit",
+      "scripts_vault_audit_audit"
+    ],
+    "46": [
+      "auditor_state",
+      "security_audit_report"
+    ],
+    "47": [
+      "budget_entry_budget_entry",
+      "investment_investment"
+    ],
+    "48": [
+      "c_users_menum_documents_obsidianvault_second_brain_claude_hooks_notify_sh__entry",
+      "hooks_notify"
+    ],
+    "49": [
+      "c_users_menum_documents_obsidianvault_second_brain_claude_hooks_validate_frontmatter_sh__entry",
+      "hooks_validate_frontmatter"
+    ],
+    "50": [
+      "claude_settings_local",
+      "claude_settings_local_enabledmcpjsonservers"
+    ],
+    "51": [
+      "index_index",
+      "log_log"
+    ],
+    "52": [
+      "mcp_tool_tax_strategy_report_2026_mcp_tool_tax_strategy_report_2026",
+      "strategic_engineering_report_2026_strategic_engineering_report_2026"
+    ],
+    "53": [
+      "moc_root",
+      "moc_root_skills"
+    ],
+    "54": [
+      "obsidian_appearance",
+      "obsidian_appearance_enabledcsssnippets"
+    ],
+    "55": [
+      "obsidian_backlink",
+      "obsidian_backlink_backlinkindocument"
+    ],
+    "56": [
+      "researcher_state",
+      "windows_mcp_path_patch"
+    ],
+    "57": [
+      "scripts_bridge_config",
+      "scripts_bridge_config_sync_pairs"
+    ],
+    "58": [
+      "scripts_bridge_sync",
+      "scripts_bridge_sync_sync"
+    ],
+    "59": [
+      "scripts_dead_link_check",
+      "scripts_dead_link_check_check_dead_links"
+    ],
+    "60": [
+      "scripts_ensure_docker",
+      "scripts_ensure_docker_start_docker"
+    ],
+    "61": [
+      "scripts_fix_broken_links",
+      "scripts_fix_broken_links_rationale_48"
+    ],
+    "62": [
+      "scripts_ghostwriter_analyze",
+      "scripts_ghostwriter_analyze_analyze_style"
+    ],
+    "63": [
+      "scripts_run_graphify",
+      "scripts_run_graphify_rationale_20"
+    ],
+    "64": [
+      "scripts_sync_skillstoobsidian",
+      "scripts_sync_skillstoobsidian_scrape_githubrepo"
+    ],
+    "65": [
+      "vault_note_1c5acf71_d6ac_442a_ba77_92847f4f2845_readme",
+      "vault_note_db71eccc_5cbe_458f_a68e_d03aca0a1954_readme"
+    ],
+    "66": [
+      "ai_failover_config"
+    ],
+    "67": [
+      "ai_scripts_vault_audit_sh_scripts_vault_audit"
+    ],
+    "68": [
+      "architecture_md"
+    ],
+    "69": [
+      "changelog_md"
+    ],
+    "70": [
+      "debugging_playbook"
+    ],
+    "71": [
+      "deployment_playbook"
+    ],
+    "72": [
+      "hooks_protect_system_files"
+    ],
+    "73": [
+      "menum_commands"
+    ],
+    "74": [
+      "menum_skills"
+    ],
+    "75": [
+      "menum_sources"
+    ],
+    "76": [
+      "obsidian_community_plugins"
+    ],
+    "77": [
+      "obsidian_hotkeys"
+    ],
+    "78": [
+      "onboarding_md"
+    ],
+    "79": [
+      "readme_md"
+    ],
+    "80": [
+      "references_command_index"
+    ],
+    "81": [
+      "scripts_build_index"
+    ],
+    "82": [
+      "scripts_check_links"
+    ],
+    "83": [
+      "scripts_generate_skillindex"
+    ],
+    "84": [
+      "scripts_quality_gate"
+    ],
+    "85": [
+      "scripts_setup_backup_task"
+    ],
+    "86": [
+      "scripts_setup_elite_keys"
+    ],
+    "87": [
+      "scripts_setup_openrouter"
+    ],
+    "88": [
+      "sorter_agent"
+    ],
+    "89": [
+      "tag_taxonomy"
+    ],
+    "90": [
+      "taskam_commands"
+    ],
+    "91": [
+      "taskam_skills"
+    ],
+    "92": [
+      "taskam_sources"
+    ],
+    "93": [
+      "vault_note_18388856_b80b_43e4_b820_61d5c58b20f2_changelog"
+    ],
+    "94": [
+      "vault_note_203388bb_a01a_4dc5_bea0_c8c7352248cb_ghost_strategist"
+    ],
+    "95": [
+      "vault_note_275b5850_ce8f_460c_81d8_29c60f0c27d5_readme"
+    ],
+    "96": [
+      "vibecity_commands"
+    ],
+    "97": [
+      "vibecity_skills"
+    ],
+    "98": [
+      "vibecity_sources"
+    ],
+    "99": [
+      "welcome_md"
+    ]
+  },
+  "cohesion": {
+    "0": 0.3076441102756892,
+    "1": 0.0625,
+    "2": 0.06896551724137931,
+    "3": 0.07407407407407407,
+    "4": 0.07692307692307693,
+    "5": 0.07692307692307693,
+    "6": 0.09523809523809523,
+    "7": 0.1,
+    "8": 0.16339869281045752,
+    "9": 0.14285714285714285,
+    "10": 0.15384615384615385,
+    "11": 0.18181818181818182,
+    "12": 0.24242424242424243,
+    "13": 0.18181818181818182,
+    "14": 0.18181818181818182,
+    "15": 0.2,
+    "16": 0.3111111111111111,
+    "17": 0.3055555555555556,
+    "18": 0.3611111111111111,
+    "19": 0.25,
+    "20": 0.2222222222222222,
+    "21": 0.5357142857142857,
+    "22": 0.2857142857142857,
+    "23": 0.2857142857142857,
+    "24": 0.2857142857142857,
+    "25": 0.5714285714285714,
+    "26": 0.3333333333333333,
+    "27": 0.4,
+    "28": 0.4,
+    "29": 0.4,
+    "30": 0.7,
+    "31": 0.5,
+    "32": 0.5,
+    "33": 0.5,
+    "34": 0.8333333333333334,
+    "35": 0.6666666666666666,
+    "36": 0.6666666666666666,
+    "37": 0.6666666666666666,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 0.6666666666666666,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 1.0,
+    "51": 1.0,
+    "52": 1.0,
+    "53": 1.0,
+    "54": 1.0,
+    "55": 1.0,
+    "56": 1.0,
+    "57": 1.0,
+    "58": 1.0,
+    "59": 1.0,
+    "60": 1.0,
+    "61": 1.0,
+    "62": 1.0,
+    "63": 1.0,
+    "64": 1.0,
+    "65": 1.0,
+    "66": 1.0,
+    "67": 1.0,
+    "68": 1.0,
+    "69": 1.0,
+    "70": 1.0,
+    "71": 1.0,
+    "72": 1.0,
+    "73": 1.0,
+    "74": 1.0,
+    "75": 1.0,
+    "76": 1.0,
+    "77": 1.0,
+    "78": 1.0,
+    "79": 1.0,
+    "80": 1.0,
+    "81": 1.0,
+    "82": 1.0,
+    "83": 1.0,
+    "84": 1.0,
+    "85": 1.0,
+    "86": 1.0,
+    "87": 1.0,
+    "88": 1.0,
+    "89": 1.0,
+    "90": 1.0,
+    "91": 1.0,
+    "92": 1.0,
+    "93": 1.0,
+    "94": 1.0,
+    "95": 1.0,
+    "96": 1.0,
+    "97": 1.0,
+    "98": 1.0,
+    "99": 1.0
+  },
+  "gods": [
+    {
+      "id": "ai_knowledge_state_topics",
+      "label": "topics",
+      "degree": 38
+    },
+    {
+      "id": "ai_knowledge_state_avaiga_taipy_sourcekey",
+      "label": "sourceKey",
+      "degree": 37
+    },
+    {
+      "id": "ai_knowledge_state_avaiga_taipy_url",
+      "label": "url",
+      "degree": 37
+    },
+    {
+      "id": "ai_knowledge_state_avaiga_taipy_sourcetype",
+      "label": "sourceType",
+      "degree": 37
+    },
+    {
+      "id": "ai_knowledge_state_avaiga_taipy_notepath",
+      "label": "notePath",
+      "degree": 36
+    },
+    {
+      "id": "obsidian_types_types",
+      "label": "types",
+      "degree": 26
+    },
+    {
+      "id": "ai_knowledge_state_sources_github",
+      "label": "github",
+      "degree": 26
+    },
+    {
+      "id": "ai_knowledge_state_updatedat",
+      "label": "updatedAt",
+      "degree": 25
+    },
+    {
+      "id": "ai_knowledge_state_avaiga_taipy_fullname",
+      "label": "fullName",
+      "degree": 24
+    },
+    {
+      "id": "ai_knowledge_state_avaiga_taipy_owner",
+      "label": "owner",
+      "degree": 24
+    }
+  ],
+  "surprises": [
+    {
+      "source": "User Profile (Menum)",
+      "target": "Identity: Phirawit Jitnarong",
+      "source_files": [
+        "meta/user-profile.md",
+        "system/Identity.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Claude Router",
+      "target": "Skills Registry",
+      "source_files": [
+        "CLAUDE.md",
+        "brain/skills-universal/skills-registry-compact.json"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 code); connects across different repos/directories; peripheral node `Skills Registry` unexpectedly reaches hub `Claude Router`"
+    },
+    {
+      "source": "Work Log Template",
+      "target": "Thaolai Web",
+      "source_files": [
+        "templates/Work Log.md",
+        "01-projects/thaolai-web/Overview.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `Thaolai Web` unexpectedly reaches hub `Work Log Template`"
+    },
+    {
+      "source": "Lesson: Windows MCP Path Patching",
+      "target": "Researcher Session State (MCP)",
+      "source_files": [
+        "lessons/windows-mcp-path-patch.md",
+        "meta/states/researcher.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "Opportunity: SME AI Dashboards",
+      "target": "User Profile (Menum)",
+      "source_files": [
+        "second-brain/Operations/Opportunities/OPP-eb1b0120-eff3-4c40-b3f9-c117befb6b15.md",
+        "meta/user-profile.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    }
+  ],
+  "tokens": {
+    "input": 209729,
+    "output": 10921
+  }
+}
